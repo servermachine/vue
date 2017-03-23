@@ -10,7 +10,7 @@ export const isUnaryTag = makeMap(
 // Elements that you can, intentionally, leave open
 // (and which close themselves)
 export const canBeLeftOpenTag = makeMap(
-  'colgroup,dd,dt,li,options,p,td,tfoot,th,thead,tr,source'
+  'colgroup,dd,dt,li,options,p,td,tfoot,th,thead,tr,source,div,template,form'
 )
 
 // HTML5 tags https://html.spec.whatwg.org/multipage/indices.html#elements-3
